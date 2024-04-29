@@ -1,0 +1,52 @@
+PODS:
+  - Differentiator (5.0.0)
+  - Nimble (9.2.1)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxNimble/Core (5.1.2):
+    - Nimble (~> 9.2)
+    - RxSwift (~> 6.0)
+  - RxNimble/RxTest (5.1.2):
+    - RxNimble/Core
+    - RxTest
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxDataSources
+  - RxNimble/RxTest
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Differentiator
+    - Nimble
+    - RxCocoa
+    - RxDataSources
+    - RxNimble
+    - RxRelay
+    - RxSwift
+    - RxTest
+
+SPEC CHECKSUMS:
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxNimble: 60c8162b1518306a11d0c272a65ade133b209670
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+
+PODFILE CHECKSUM: 0805c0e6405d327f8dcd5e4689f647801c20d8bb
+
+COCOAPODS: 1.11.3
